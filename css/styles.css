@@ -200,6 +200,10 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.feature-icon {
+  background: #E5E5E5;
+}
 .feature-header {
   font-family: "Roboto";
   font-style: normal;
