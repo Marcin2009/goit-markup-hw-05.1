@@ -322,6 +322,35 @@ ul {
   color: #757575;
   margin-top: 10px;
 }
+
+.team-social-icon-list {
+  display: flex;
+  justify-content: center;
+}
+.team-social-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  background-color: #f5f4fa;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+.team-social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+.team-social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.team-social-icon-link:hover,
+.team-social-icon-link:focus {
+  color: #ffffff;
+  background-color: var(--link-color-hover);
+}
+
 .our-customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -342,6 +371,7 @@ ul {
   align-items: center;
   justify-content: center;
   display: flex;
+  fill: var(--color-icon);
 }
 .our-customers-icon {
   width: 106px;
@@ -350,6 +380,11 @@ ul {
 .our-customers-list {
   display: flex;
   justify-content: space-between;
+}
+.our-customers-link:hover,
+.our-customers-link:focus {
+  fill: var(--link-color-hover);
+  border: 1px solid var(--link-color-hover);
 }
 
 .studio-bottom {
@@ -385,6 +420,18 @@ ul {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
   color: #2196f3;
+  
+}
+
+.footer-social-icon-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
 }
 
 /* portfolio.html */
@@ -412,6 +459,7 @@ ul {
   display: inline-block;
   justify-content: center;
   padding-bottom: 50px;
+
 }
 .portfolio-btn-item:not(:last-child) {
   margin-right: 8px;
@@ -460,4 +508,8 @@ ul {
   max-width: 370px;
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
