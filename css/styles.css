@@ -416,7 +416,12 @@ ul {
 .footer-contact-link:focus {
   color: #2196f3;
 }
-
+.footer-social-icon-title{
+ display: flex;
+ 
+ justify-content: center;
+ 
+}
 .footer-social-icon-text {
   font-family: "Roboto";
   font-style: normal;
@@ -424,35 +429,43 @@ ul {
   font-size: 14px;
   line-height: 1.4px;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: #ffffff;
-  margin-bottom: 20px;
 }
+
 .footer-social-icon {
   width: 20px;
   height: 20px;
   display: flex;
   fill: currentColor;
   color: var(--studio-bottom-color);
-  background-color: #ffffff10;
+  margin-left: 70px;
+  margin-top: 10px;
 }
 
 .footer-social-icon-item {
+  width: 44px;
+  height: 44px;
+  display: block;
 }
+
 .footer-social-icon-list {
   display: flex;
-  justify-content: center;
 }
 
 .footer-social-link {
   background-color: #ffffff10;
-  display: block;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  
+  
 }
-.footer-social-icon-item:not(:last-child) {
+.footer-social-icon-item:not(:last-child){
   margin-right: 10px;
 }
-.footer-social-icon:hover,
-.footer-social-icon:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   color: var(--studio-bottom-color);
   background-color: var(--link-color-hover);
 }
