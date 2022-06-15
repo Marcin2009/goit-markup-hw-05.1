@@ -13,7 +13,7 @@
   --second-font: "Raleway", sans-serif;
   --brand-color: #212121;
   --studio-top-color: rgb(0, 0, 0);
-  --studio-bottom-color: white;
+  --studio-bottom-color: #ffffff;
   --team-background-color: #f5f4fa;
   --menu-nav-menu-footer-bckgr: #2f303a;
   --link-color-hover: #2196f3;
@@ -326,7 +326,7 @@ ul {
   width: 44px;
   height: 44px;
   color: #afb1b8;
-  background-color: #f5f4fa;
+
   border-radius: 50%;
   align-items: center;
   justify-content: space-around;
@@ -337,6 +337,7 @@ ul {
 .team-social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 
 .team-social-icon-link:hover,
@@ -425,8 +426,36 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  fill: currentColor;
+  color: var(--studio-bottom-color);
+  background-color: #ffffff10;
 }
 
+.footer-social-icon-item {
+}
+.footer-social-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-link {
+  background-color: #ffffff10;
+  display: block;
+}
+.footer-social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  color: var(--studio-bottom-color);
+  background-color: var(--link-color-hover);
+}
 /* portfolio.html */
 
 .portfolio-projects-btn {
