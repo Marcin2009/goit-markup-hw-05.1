@@ -44,7 +44,7 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
-  /* outline: 2px dashed #f44336; */
+   /* outline: 2px dashed #f44336; */
 }
 
 img {
@@ -416,57 +416,54 @@ ul {
 .footer-contact-link:focus {
   color: #2196f3;
 }
-.footer-social-icon-title{
- display: flex;
- 
- justify-content: center;
- 
-}
-.footer-social-icon-text {
+
+
+
+
+.footer-social-icon-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4px;
-  letter-spacing: 0.03em;
-
+  letter-spacing: 0.03em; 
   color: #ffffff;
+  display: flex;
+  margin-left: 531px; 
+  
+  
 }
 
+.footer-contact-icon{
+  margin-left: 70px;
+  width: 206px;
+ 
+}
+.footer-social-icon-list {
+  display: flex;
+  align-items: center;
+  
+  
+}
+.footer-social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: var(--studio-bottom-color) ;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 110px;
+  
+
+}
 .footer-social-icon {
   width: 20px;
   height: 20px;
-  display: flex;
-  fill: currentColor;
-  color: var(--studio-bottom-color);
-  margin-left: 70px;
-  margin-top: 10px;
-}
-
-.footer-social-icon-item {
-  width: 44px;
-  height: 44px;
-  display: block;
-}
-
-.footer-social-icon-list {
-  display: flex;
-}
-
-.footer-social-link {
-  background-color: #ffffff10;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  
-  
-}
-.footer-social-icon-item:not(:last-child){
-  margin-right: 10px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  color: var(--studio-bottom-color);
   background-color: var(--link-color-hover);
 }
 /* portfolio.html */
